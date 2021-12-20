@@ -136,7 +136,15 @@ body{
     background-color: white;
     padding-bottom: 5px;
 }
-
+/* bold name */
 .sticky-nav h1{
     font-weight: bold;
+}
+
+/* media screen */
+@media screen and (max-width: 480px) {
+    ul.nav.justify-content-center.position-sticky h1{
+        width: 100%;
+        text-align: center;
+    }
 }
