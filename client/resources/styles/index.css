@@ -172,7 +172,7 @@ body{
         width: 100%;
         text-align: center;
     }
-    body{
+    body,html{
         overflow-x: hidden;
     }
 }
