@@ -148,21 +148,21 @@ body{
 
 /* button 1 hover background */
 .btn:hover:not(.text2, .text3){
-    background-image: url('../images/rolling-stones-icon.jpg');
+    background-image: url('../images/rolling-stones-icon.webp');
     background-size:52px 52px;
     text-shadow: 2px 2px 5px black;
     color: white;
 }
 /* button 2 hover background  */
 .btn:hover:not(.text, .text3){
-    background-image: url('../images/sunflower.png');
+    background-image: url('../images/sunflower.webp');
     background-size: 225px 225px;
     text-shadow: 2px 2px 5px black;
     color: white;
 }
 /* button 3 hover background */
 .btn:hover:not(.text, .text2){
-    background-image: url('../images/scarf-logo.jpg');
+    background-image: url('../images/scarf-logo.webp');
     background-size:54px 52px;
     text-shadow: 2px 2px 5px black;
     color: white;
