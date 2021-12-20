@@ -6,6 +6,9 @@ body{
     align-items: center;
     
 }
+html{
+    overflow-x: hidden; 
+}
 
 .footer-top{
     background-color: #e7e7e7;
@@ -171,5 +174,8 @@ body{
     ul.nav.justify-content-center.position-sticky h1{
         width: 100%;
         text-align: center;
+    }
+    html,body{
+        overflow-x: hidden;
     }
 }
