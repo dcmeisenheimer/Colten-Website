@@ -10,14 +10,15 @@ body{
 .sticky-nav{
     padding-bottom: 5px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    background-color: #def2f1;
     width: 100%;
     max-width: 100%;
-    color: #747474;
+    color: #FEFFFF;
+    background-image: linear-gradient(-20deg, #ff2846 0%, #6944ff 100%);
+    background-image: linear-gradient(-20deg, #ff2846 0%, #6944ff 100%);
 }
 
 .sticky-nav a{
-    color: #747474;
+    color: #FEFFFF;
 }
 /* bold name */
 .sticky-nav h1{
@@ -162,8 +163,8 @@ body{
 }
 /* button 3 hover background */
 .btn:hover:not(.text, .text2){
-    background-image: url('../images/scarf-logo.webp');
-    background-size:54px 52px;
+    background-image: url('../images/mountain-button.webp');
+    background-size:57px 50px;
     text-shadow: 2px 2px 5px black;
     color: white;
     background-color: white;
@@ -186,23 +187,6 @@ body{
 }
 
 
-/* colten about image circle */
-.circle-main{
-    height: 30%;
-    width: 30%;
-    border-radius: 200px;
-    margin: 20px;
-    -webkit-box-shadow: 8px 8px 20px 0px rgb(41, 15, 185);
-    -moz-box-shadow: 8px 8px 20px 0px rgb(41, 15, 185);
-    box-shadow: 8px 8px 20px 0px rgb(41, 15, 185);
-    position:relative;
-}
-
-.card-img{
-    -webkit-box-shadow: 8px 8px 20px 0px rgb(41, 15, 185);
-    -moz-box-shadow: 8px 8px 20px 0px rgb(41, 15, 185);
-    box-shadow: 8px 8px 20px 0px rgb(41, 15, 185);
-}
 
 /* About Me Gradient and styling */
 a,
