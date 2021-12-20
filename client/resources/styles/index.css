@@ -1,6 +1,18 @@
 /* Padding for top of navbar */
 body{
     font-family: 'Lato', serif;
+    background-color: #FEFFFF;
+}
+
+.footer-top{
+    background-color: #e7e7e7;
+    box-shadow: 0 -6px 0 #fff, 0 1px 6px rgba(0,0,0, .35);
+}
+
+.footer-bottom, .footer-bottom-contact {
+    text-align: center;
+    color: grey;
+    text-decoration: none;
 }
 
 .justify-content-center{
@@ -42,6 +54,7 @@ body{
 .row h1{
     text-align: left;
     font-weight: bold;
+    padding-top: 10px;
 }
 /* Lead paragraph align */
 .lead{
@@ -56,6 +69,11 @@ body{
 .card{
     margin-bottom: 10px;
     margin-top: 10px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.card-body{
+    background-color: #FEFFFF;
 }
 
 /* card image opacity and transition */
@@ -133,8 +151,10 @@ body{
 
 /* change nav bar color white */
 .sticky-nav{
-    background-color: white;
     padding-bottom: 5px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: white;
+    
 }
 /* bold name */
 .sticky-nav h1{
