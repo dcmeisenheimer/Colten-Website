@@ -6,9 +6,6 @@ body{
     align-items: center;
     
 }
-html{
-    overflow-x: hidden; 
-}
 
 .footer-top{
     background-color: #e7e7e7;
@@ -175,7 +172,7 @@ html{
         width: 100%;
         text-align: center;
     }
-    html,body{
+    body{
         overflow-x: hidden;
     }
 }
