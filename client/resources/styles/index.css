@@ -382,6 +382,24 @@ a:hover {
   width: 25%;
 }
 
+/* Collection Two Columns */
+
+/* Collection 3 columns */
+.row,
+.row > .column-one, .column-two {
+  padding: 8px;
+}
+
+.column-one{
+  float: left;
+  width: 50%;
+}
+
+.column-two{
+  float: left;
+  width: 33.33%;
+}
+
 /* Clear floats after rows */ 
 .row:after {
   content: "";
@@ -412,7 +430,7 @@ a:hover {
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column {
+  .column, .column-two, .column-one {
     width: 100%;
   }
 }
