@@ -393,9 +393,16 @@ a:hover {
 .content {
   background-color: white;
   padding: 10px;
-  
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
+
+.content h3{
+  padding-top: 5px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
   .column {
